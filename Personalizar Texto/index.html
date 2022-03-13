@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Personalizar Texto</title>
+</head>
+<body>
+    <div id="container">
+        <p id="paragraph">Suspendisse eu arcu odio. Aliquam eu lectus sed neque viverra blandit. Maecenas sem nisi, varius eget tempor vel,
+             varius ut enim. Phasellus non bibendum dolor, non dictum risus. Aliquam erat volutpat.
+             Nullam faucibus euismod ex nec posuere. Integer id nulla commodo, egestas enim ac, efficitur elit,
+             etiam facilisis ipsum orci. Proin pretium, diam a molestie faucibus, lacus turpis dictum mi, id aliquam ligula eros dignissim ligula.</p>
+    </div>
+    <div id="container-two">
+        <div id="fontdiv">
+        <label for="select" id="font-label">Fonte da Letra:</label>
+        <select id="select" onchange="myFunction()">
+            <option value="default">Default</option>
+            <option value="arial">Arial</option>
+            <option value="cambria">Cambria</option>
+            <option value="monospace">Monospace</option>
+            <option value="roboto">Roboto</option>
+            <option value="fredoka">Fredoka</option>
+        </select>
+        </div>
+
+        <div id="fontsize">
+            <p>Tamanho: <span id="size"></span></p>
+            <input type="range" min="8" max="25" value="12" id="range-slider">
+        </div>
+
+        <div id="fontcolor">
+            <p>Cor:</p>
+            <div id="colors">
+                <button id="black" class="font"></button>
+                <button id="red" class="font"></button>
+                <button id="blue" class="font"></button>
+                <button id="green" class="font"></button>
+            </div>
+        </div>
+
+        <div id="fontstyle">
+            <p>Estilo:</p>
+            <div id="div-style">
+                <button id="normal">Normal</button><button id="cursive">Cursiva</button><button id="light">Normal </button><button id="bold">Negrito </button>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

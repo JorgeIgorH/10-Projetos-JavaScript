@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@200&display=swap');
+
+html {
+    height: 100%;
+    background-color: #272637;
+}
+body {
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+
+
+#navbar {
+    width: 100%;
+    background-color: #474168;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    z-index: 5;
+    text-align: center;
+}
+
+#navbar a:first-child {
+    margin-left: 50px;
+    border-left: 1px solid white;
+}
+
+#navbar a {
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    line-height: 100px;
+    border-right: 1px solid white;
+    padding: 20px;
+}
+#navbar a:hover {
+    color: #666;
+}
+
+
+#progress-container {
+    width: 100%;
+    height: 8px;
+    background-color: white;
+}
+#progress-bar {
+    height: 8px;
+    width: 0%;
+    background-color: #2d132c;
+}
+
+
+#main {
+    width: 80%;
+    margin: 50px auto;
+    background-color: #474168;
+    padding: 50px;
+    z-index: -1;
+}
+
+h1 {
+    color: white;
+    font-size: 62px;
+    text-align: center;
+}
+
+p {
+    color: white;
+    font-size: 26px;
+}
+
+span{
+    color: rgb(145, 145, 145);
+}
